@@ -16,7 +16,7 @@
 
 Apres avoir fait vos recherches sur le framework **express**. 
 
-- Mettre en place le server **express**
+
 - Le port pour le server **express** sera : **7500** sur le **localhost**.
 - La route **/** devra renvoyer le message **Bienvenue dans l'api rest des planetes**
 - La route **/planetes** devra renvoyer la liste de toutes les planetes au format json (id,nom,image,created_at)
