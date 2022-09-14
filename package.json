@@ -20,6 +20,8 @@
   "homepage": "https://github.com/noraceppic/nodejs_planete_api#readme",
   "dependencies": {
     "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "expresse": "^1.0.2",
     "nodemon": "^2.0.19",
     "sqlite3": "^5.1.0"
   }
