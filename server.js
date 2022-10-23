@@ -33,6 +33,15 @@ server.get('/planetes', (req, res)=>{
         if (err) throw err
         res.status(200).send(JSON.stringify(data))
       })
+
+
+      server.get('/planetes/:id', (req, res) => {
+        res.header("Content-type", "application/json")
+        db.all(`select * from PLANETES where id = ${req.params.id}`,(err,data) => {
+          if(err) throw err
+          res.send(JSON.stringify(data))
+        })
+      })
    
 })
 
