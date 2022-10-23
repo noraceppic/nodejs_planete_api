@@ -1,6 +1,11 @@
 const express =require('express');
 const sqlite3 = require("sqlite3").verbose();
 const dbname = "univers.db";
+const cors = require("cors");
+
+
+
+server.use(cors());
 
 
 
